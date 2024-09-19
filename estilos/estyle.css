@@ -19,6 +19,12 @@ body, html
     width: 100vw;
     position: relative;
 }
+h1, p {
+    padding: 10px;
+}
+p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 
 section#login {
     position: absolute;

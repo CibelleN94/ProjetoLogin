@@ -22,26 +22,45 @@ Telas gandes - acima de 1200px */
         width: 30%;
         height: 100%;    
     }
+    p, h1 {
+        padding: 10px;
+        text-align: center;
+
+    }
+    
+    
 }
 
-section#login > div#formulario {
-   
-
-@media screen and (mini-width:992px) and (max-width:1200) {
+@media screen and (mini-width:992px) {
     section#login {
         width:950px;
     }
 
     section#login > section#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > section#formulario {
         float: left;
         width: 50%;
-        height: 50%;
     }
-}
+    p, h1, {
+        text-align: center;
+    }
+    
+    section#login > p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    div#formulario > p {
+        font-size: 1.3em;
+    }
+    }
+    
 
-section#login > section#formulario {
-    float: right;
-    width: 50%;
 
-}
+
+
+
 
