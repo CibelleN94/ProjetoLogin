@@ -22,10 +22,14 @@ Telas gandes - acima de 1200px */
         width: 30%;
         height: 100%;    
     }
-    p, h1 {
-        padding: 10px;
-        text-align: center;
+    div#formulario > h1 {
+        margin: 10px;
+        margin-bottom: 10px;
 
+    }
+    div#formulario > p {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     
     
@@ -46,7 +50,21 @@ Telas gandes - acima de 1200px */
         float: left;
         width: 50%;
     }
+
+    div#formulario > h1 {
+        margin: 10px;
+        text-align: center;
+        padding: 10px;
+
+    }
+    div#formulario > p {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
 }
+
+
     
 
 
