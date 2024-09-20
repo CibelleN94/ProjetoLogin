@@ -98,4 +98,10 @@ form > a.botao > span {
         font-size: 1.0em;
 }
 
+div.campo > span {
+    font-size: 1.3em;
+    color: #b35858;
+
+}
+
 
