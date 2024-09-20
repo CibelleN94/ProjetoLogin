@@ -53,8 +53,9 @@ div#formulario > h1 {
 
 div#formulario > p {
     font-size: 0.8em;
-    font-family: cursive;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    color: #b35858;
 }
 form > input[type=submit] {
     display: block;
