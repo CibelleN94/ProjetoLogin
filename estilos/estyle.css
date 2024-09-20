@@ -47,8 +47,9 @@ section#login > div#imagem {
 }
 div#formulario > h1 {
     text-align: center;
+    color: #b35858;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-bottom: 10px;
+    margin: 10px 10px;
 }
 
 div#formulario > p {
@@ -56,6 +57,19 @@ div#formulario > p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     color: #b35858;
+}
+
+form > div.campo {
+    display: block;
+    border: 2px solid #b35858;
+    border-radius: 5px;
+    margin: 5px 5px;
+    height: 35px;
+
+}
+
+div.campo > label {
+    display: none;
 }
 form > input[type=submit] {
     display: block;
