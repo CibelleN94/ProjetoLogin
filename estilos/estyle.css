@@ -51,5 +51,15 @@ section#login > div#imagem {
     padding: 20px;  
     display: block;
 }
+p, h1, {
+    text-align: center;
+}
+
+section#login > p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div#formulario > p {
+    font-size: 1.0em;
+}
 
 
